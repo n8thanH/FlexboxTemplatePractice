@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+}
+
+#bigContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+#nav{
+    background-color: green;
+    order: 1;
+    flex-grow: 1;
+}
+
+#right{
+    order: 2;
+    flex-grow: 7;
+    display: flex;
+    flex-direction: column;
+}
+
+#header{
+    background-color: blue;
+    order: 1;
+    flex-grow: 1;
+}
+
+#footer{
+    background-color: blue;
+    order: 3;
+    flex-grow: 1;
+}
+
+#middle{
+    order: 2;
+    flex-grow: 3;
+    display: flex;
+    flex-direction: row;
+}
+
+#Article{
+    background-color: lightgray;
+    order: 1;
+    flex-grow: 3;
+}
+
+#Aside{
+    background-color: bisque;
+    order: 2;
+    flex-grow: 1;
+}
